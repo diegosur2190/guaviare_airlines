@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Guaviare Airlines</title>
+        <meta name="robots" content="index, follow">
+        <meta name="theme-color" content="#0A2D49">
+        <meta name="description" content="Aerolinea colombiana que presta sus servicios en la region de la orinoquia y la amazonia, con base de operaciones en el aeropuerto Jorge Enrique Gonzalez de San Jose del Guaviare">
+        <link rel="icon" type="image/jfif" href="/C:\Users\Usuario\Documents\git\prueba\images\guaviare2.jfif">
+        <link rel="canonical" href="https//guaviareairlines.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+
+        <body class="body_index">
+            <a href="file:///C:/Users/Usuario/Documents/git/prueba/index.html" target="_blank" >
+                <img class="Logo_principal" title="Logo Guaviare Airlines" alt="Logo Guaviare Airlines" src="/C:\Users\Usuario\Documents\git\prueba\images\guaviare2.jfif">
+            </a>
+            
+            <div class="cabeceraindex">
+                <div>                   
+                    <a href="file:///C:/Users/Usuario/Documents/git/prueba/reserva.html" class="reservaindex">Reserva</a>
+                </div>
+                <div >
+                    <a href="file:///C:/Users/Usuario/Documents/git/prueba/tureserva.html" class="tureservaindex">Tu Reserva</a>
+                </div>
+                <div >
+                    <a href="file:///C:/Users/Usuario/Documents/git/prueba/checkin.html" class="checkinindex">Check-In</a>
+                </div>
+                <div >
+                    <a href="file:///C:/Users/Usuario/Documents/git/prueba/estadodevuelo.html" class="estadodevueloindex">Estado de Vuelo</a>
+                </div>
+                <div >
+                    <a href="file:///C:/Users/Usuario/Documents/git/prueba/inicio_sesion.html" class="inisesind">Iniciar Sesion</a>
+                </div>
+            </div>
+            <div>
+                
+                <img src="C:\Users\Usuario\Documents\git\prueba\images\avioninte1.jfif" class="avioninte1" alt="Interior de un avion Boeing 737 de Guaviare Airlines" title="Interior de un avion Boeing 737 de Guaviare Airlines">
+            </div>
+            <main>
+                <section>
+                    <form method="post" action="/">
+                            <fieldset id="reservar">
+                                <select>
+                                    <option value="ida_vuelta" name="ida_Vuelta" id="ida_vuelta">Ida y Vuelta</option>
+                                    <option value="ida_vuelta" name="ida_vuelta" id="solo_ida">Solo Ida</option>
+                                </select>
+                                <select>
+                                    <option value="clase" name="clase" id="economico">Economico</option>
+                                    <option value="clase" name="clase" id="ejecutivo">Ejecutivo</option>
+                                    <option value="clase" name="clase" id="primera_clase">Primera Clase</option>
+                                </select>
+                                <select>
+                                    <option value="pasajeros" name="pasajeros" id="adultos">Adultos</option>                        
+                                    <option value="pasajeros" name="pasajeros" id="ninos">Niños</option>
+                                    <option value="pasajeros" name="pasajeros" id="bebes">Bebes</option>                   
+                                </select>
+                                <br>
+                                <div>
+                                    <datalist id="ciudad_origen">
+                                        <option value="Bogota (ElDorado)"></option>
+                                        <option value="Medellin (Jose Maria Cordova)"></option>
+                                        <option value="Cali (Alfonso Bonilla Aragon)"></option>
+                                        <option value="San Jose Del Guaviare (Jorge Enerique Gonzalez)"></option>
+                                        <option value="Medellin (Enrique Olaya Herrera)"></option>
+                                        <option value="Mitu (Fabio Alberto Leon Bentley)"></option>
+                                        <option value="Leticia (Alfredo Vasquez Cobo)"></option>
+                                        <option value="Mocoa (Villagarzon)"></option>
+                                        <option value="Puerto Inirida (Cesar Gaviria Trujillo)"></option>
+                                        <option value="Puerto Carreño (German Olano)"></option>
+                                        <option value="Villavicencio (Vanguardia)"></option>
+                                        <option value="Neiva (Benito Salas)"></option>
+                                        <option value="Popayan (Guillermo Leon Valencia)"></option>
+                                        <option value="Pasto (Antonio Nariño)"></option>
+                                    </datalist>
+                                        <input list="ciudad_origen" name="ciudad_origen" placeholder="Ciudad de origen" required>
+                                </div>
+                                <br>
+                                <div>
+                                    <datalist id="ciudad_destino">
+                                        <option value="Bogota (ElDorado)"></option>
+                                        <option value="Medellin (Jose Maria Cordova)"></option>
+                                        <option value="Cali (Alfonso Bonilla Aragon)"></option>
+                                        <option value="San Jose Del Guaviare (Jorge Enerique Gonzalez)"></option>
+                                        <option value="Medellin (Enrique Olaya Herrera)"></option>
+                                        <option value="Mitu (Fabio Alberto Leon Bentley)"></option>
+                                        <option value="Leticia (Alfredo Vasquez Cobo)"></option>
+                                        <option value="Mocoa (Villagarzon)"></option>
+                                        <option value="Puerto Inirida (Cesar Gaviria Trujillo)"></option>
+                                        <option value="Puerto Carreño (German Olano)"></option>
+                                        <option value="Villavicencio (Vanguardia)"></option>
+                                        <option value="Neiva (Benito Salas)"></option>
+                                        <option value="Popayan (Guillermo Leon Valencia)"></option>
+                                        <option value="Pasto (Antonio Nariño)"></option>
+                                    </datalist>
+                                        <input list="ciudad_destino" name="ciudad_destino" placeholder="Ciudad de Destino" required>
+                                </div>
+                                <br>
+                                <input type="datetime-local" name="fecha_ida" id="fecha_ida">
+                                <br>
+                                <input type="datetime-local" name="fecha_vuelta" id="fecha_vuelta">
+                                <br>
+                                <input type="submit" value="Buscar" name="buscar" id="buscar_reservar">
+                            </fieldset> 
+                    </form>
+                </section>
+            </main>         
+            <div class="cuerpo_medio" id="cuerpo_medio">
+                <h2>Descubre las maravillas que esconde la Orinoquia colombiana</h2>
+                <h2>Listo para tu proxima aventura amazonica?</h2>
+                <h2>Un viaje por la colombia Andina</h2>  
+            </div>
+            <section>
+                <form method="post" action="/">
+                    <fieldset id="registro">
+                        <h2>No te pierdas el proximo vuelo</h2>
+                        <h3>Suscribete ahora y se el primero en saber de nuestras promociones</h3>
+                        <input type="email" placeholder="Tu correo" required>
+                        <br>
+                        <input type="checkbox"> 
+                        <small>Deseo recibir ofertas, promociones y noticias de Guaviare Airlines. He leido, comprendido y aceptado los terminos y condiciones de la politca de privacidad</small>
+                        <input type="submit" value="Registrar" name="Registrar">
+                    </fieldset>
+                </form>
+            </section>
+                <h1>Guaviare Airlines</h1>
+                <section>
+                <h2>Siguenos!</h2>
+                </section>
+            <section class="inferior_index" id="inferior_index">
+                <h2>Ayuda</h2>
+                    <a href="file:///C:/Users/Usuario/Documents/git/prueba/contacto.html" target="_blank">Contactenos</a>
+                    <h3>Actualizaciones de vuelo</h3>
+                    <h3>Asistencia</h3>
+                    <h3>Informacion de pasaportes</h3>
+                    <h3>Preguntas frecuentes</h3>
+                    <h3>Reembolsos</h3>
+                <h2>Acerca de Nosotros</h2>
+                    <h3>Quienes somos</h3>
+                    <h3>Nuestra Historia</h3>
+                    <h3>Trabaje con nostros</h3>
+                    <h3>Prensa</h3>
+                    <h3>Politica de privacidad</h3>
+                <h2>Gestionar</h2>
+                    <h3>Check-in</h3>
+                    <h3>Gestiona tu reserva</h3>
+                    <h3>Reserva de vuelos</h3>
+                    <h3>Estado de vuelo</h3>
+                <h2>Antes de Volar</h2>
+                    <h3>Equipaje</h3>
+                    <h3>Normas y Avisos</h3>
+                    <h3>Servicio al cliente</h3>
+            </div>
+            <footer>
+                <div>
+                    <h6>Copyright© Guaviare Airlines 2024</h6>
+                    <h6>Todos los derechos reservados</h6>
+                </div>
+                <div>
+                    <a href="mailto:info@guaviareairlines.com">Email: info@guaviareairlines.com</a>
+                    <br>
+                    <a href="tel:+6012226370">Telefono: +57 601 2226370</a>
+                </div>
+                <span>
+                    <nav>
+                        <a href="https://www.staralliance.com/es/" target="_blank" rel="noreferrer">
+                            <img class="star" width=77 height=65 title="Star Alliance" alt="Logo Star Alliance" src="C:\Users\Usuario\Documents\git\prueba\images\star-alliance.png">
+                        </a>
+                        <a href="https://www.aerocivil.gov.co/" target="_blank" rel="noreferrer">
+                            <img class="areonautica" width=53 height=52 title="Aeronautica Civil colombia" alt="Logo Aeronautica Civil" src="C:\Users\Usuario\Documents\git\prueba\images\aeronautica-civil.png">
+                        </a>
+                        <a href="https://www.supertransporte.gov.co/" target="_blank" rel="noreferrer">
+                            <img class="supertransporte" width=170 height=85 title="supertransporte" alt="Logo Supertransporte" src="C:\Users\Usuario\Documents\git\prueba\images\supertransporte.png">
+                        </a>
+                        <a href="https://colombia.travel/es" target="_blank" rel="noreferrer">
+                            <img class="procolombia" width=51 height=45 title="Procolombia" alt="Logo Procolombia" src="C:\Users\Usuario\Documents\git\prueba\images\procolombia.png">
+                        </a>
+                    </nav>
+                </span>
+                <div>
+                    <h4></strong><strong>Powered by</strong></h4>
+                    <h6>Diego Garcia</h6>
+                </div>
+            </footer>
+        </body>
+    </head>
+</html>
+
+
