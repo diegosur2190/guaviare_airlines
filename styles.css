@@ -1,103 +1,259 @@
 
-.body_index  {
+#body_index  {
     font-family: "Mooli", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
 } 
-.body_index {
-    background-image: linear-gradient(to top, #0A2D49 35%, #0A2D49 35%, #fff 200%);
-    height: 2400px;
-    width: 1280px;
+#body_index {
+    background: rgb(10,45,73);
+background: linear-gradient(180deg, rgba(10,45,73,1) 19%, rgba(109,124,198,0.3617822128851541) 35%, rgba(10,45,73,1) 48%, rgba(109,124,198,1) 68%, rgba(10,45,73,1) 84%);
+
+    .Logo_principal {
+        position: absolute;
+        top: 0;
+        left: 2;
+        width: 110px; 
+        height: 150px;
+    }
+    .cabeceraindex {
+        position: static;
+        top: 20px;
+        left: 0px;
+        width: 1330px;
+    } 
+    .cabeceraindex {
+        font-weight: 16px;
+        background-color: #FAB90B;
+        display: flex;
+        gap: 50px;
+        padding: 20px;
+        border: 1px solid #FAB90B;
+        border-radius: 1px;
+        width: 100%;
+        height: 105;
+    
+        .reservaindex {
+            color: #05662E;
+            text-decoration: none;
+        }
+        .reservaindex:hover {
+            position: absolute;
+            color: #FAB90B;
+            background-color: #0A2D49;
+            outline: 10px solid #0A2D49;
+            border-radius: 5px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px; 
+        }
+        .tureservaindex {
+            color: #05662E;
+            text-decoration: none;
+        }
+        .tureservaindex:hover {
+            color: #FAB90B;
+            background-color: #0A2D49;
+            outline: 10px solid #0A2D49;
+            border-radius: 5px;
+            width: 300px; 
+        } 
+        .checkinindex{
+            color: #05662E;
+            text-decoration: none;
+        }
+        .checkinindex:hover {
+            color: #FAB90B;
+            background-color: #0A2D49;
+            outline: 10px solid #0A2D49;
+            border-radius: 5px;
+            width: 300px; 
+        }
+        .estadodevueloindex{
+            color: #05662E;
+            text-decoration: none;
+        }
+        .estadodevueloindex:hover {
+            color: #FAB90B;
+            background-color: #0A2D49;
+            outline: 10px solid #0A2D49;
+            border-radius: 5px;
+            width: 300px; 
+        }
+        .inisesind {
+            color: #05662E;
+            text-decoration: none;
+        }
+        .inisesind:hover {
+            color: #FAB90B;
+            background-color: #0A2D49;
+            outline: 10px solid #0A2D49;
+            border-radius: 5px;
+            width: 300px;
+        }
+    }
+    .avioninte1 {
+        position: static;
+        top: 5;
+        left: 0;
+        width: 1330px;
+        height: 640px;
+    }
+    #inferior_index {
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        color: #FAB90B;
+        text-decoration: none;
+
+        .contactenos_index {
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .contactenos_index:hover {
+            color:#05662E;
+        }
+        .actualizaciones_vuelo_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .actualizaciones_vuelo_index:hover {
+            color:#05662E;
+        }
+        .asistencia_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .asistencia_index:hover {
+            color:#05662E;
+        }
+        .informacion_pasaportes_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .informacion_pasaportes_index:hover {
+            color:#05662E;
+        }
+        .preguntas_frecuentes_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .preguntas_frecuentes_index:hover {
+            color:#05662E;
+        }
+        .reembolsos_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .reembolsos_index:hover {
+            color:#05662E;
+        }
+        .quienes_somos_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .quienes_somos_index:hover {
+            color:#05662E;
+        }
+        .nuestra_historia_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .nuestra_historia_index:hover {
+            color:#05662E;
+        }
+        .trabaje_nosotros_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .trabaje_nosotros_index:hover {
+            color:#05662E;
+        }
+        .prensa_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .prensa_index:hover {
+            color:#05662E;
+        }
+        .politica_privacidad_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .politica_privacidad_index:hover {
+            color:#05662E;
+        }
+        .checkin_z_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .checkin_z_index:hover {
+            color:#05662E;
+        }
+        .gestiona_z_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .gestiona_z_index:hover {
+            color:#05662E;
+        }
+        .reserva_z_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .reserva_z_index:hover {
+            color:#05662E;
+        }
+        .estado_z_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .estado_z_index:hover {
+            color:#05662E;
+        }
+        .equipaje_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .equipaje_index:hover {
+            color:#05662E;
+        }
+        .normas_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .normas_index:hover {
+            color:#05662E;
+        }
+        .servicio_index{
+            color: #FAB90B;
+            text-decoration: none;
+            font-size: 18px;
+            }
+        .servicio_index:hover {
+            color:#05662E;
+        }
+    }
+    .linea_infe_index{
+        background-color:#FAB90B;
+        height: 1px;
+    }
 }
-.Logo_principal {
-    position: absolute;
-    top: 0;
-    left: 2;
-    width: 110px; 
-    height: 150px;
-}
-.cabeceraindex {
-    position: static;
-    top: 20px;
-    left: 0px;
-    width: 1330px;
-} 
-.cabeceraindex {
-    font-weight: 16px;
-    background-color: #FAB90B;
-    display: flex;
-    gap: 50px;
-    padding: 20px;
-    border: 1px solid #FAB90B;
-    border-radius: 1px;
-;
-    width: 100%;
-    height: 105;
-  }
-.reservaindex {
-    color: #05662E;
-    text-decoration: none;
-}
-.reservaindex:hover {
-    position: absolute;
-    color: #FAB90B;
-    background-color: #0A2D49;
-    outline: 10px solid #0A2D49;
-    border-radius: 5px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px; 
-}
-.tureservaindex {
-    color: #05662E;
-    text-decoration: none;
-}
-.tureservaindex:hover {
-    color: #FAB90B;
-    background-color: #0A2D49;
-    outline: 10px solid #0A2D49;
-    border-radius: 5px;
-    width: 300px; 
-} 
-.checkinindex{
-    color: #05662E;
-    text-decoration: none;
-}
-.checkinindex:hover {
-    color: #FAB90B;
-    background-color: #0A2D49;
-    outline: 10px solid #0A2D49;
-    border-radius: 5px;
-    width: 300px; 
-}
-.estadodevueloindex{
-    color: #05662E;
-    text-decoration: none;
-}
-.estadodevueloindex:hover {
-    color: #FAB90B;
-    background-color: #0A2D49;
-    outline: 10px solid #0A2D49;
-    border-radius: 5px;
-    width: 300px; 
-}
-.inisesind {
-    color: #05662E;
-    text-decoration: none;
-}
-.inisesind:hover {
-    color: #FAB90B;
-    background-color: #0A2D49;
-    outline: 10px solid #0A2D49;
-    border-radius: 5px;
-    width: 300px;
-}
-.avioninte1 {
-    position: static;
-    top: 5;
-    left: 0;
-    width: 1330px;
-    height: 640px;
-  }
-  
+
