@@ -6,8 +6,7 @@
 } 
 #body_index {
     background: rgb(10,45,73);
-background: linear-gradient(180deg, rgba(10,45,73,1) 19%, rgba(109,124,198,0.3617822128851541) 35%, rgba(10,45,73,1) 48%, rgba(109,124,198,1) 68%, rgba(10,45,73,1) 84%);
-
+background: linear-gradient(45deg, rgba(10,45,73,1) 25%, rgba(152,149,195,1) 50%, rgba(10,45,73,1) 75%);
     .Logo_principal {
         position: absolute;
         top: 0;
@@ -90,16 +89,72 @@ background: linear-gradient(180deg, rgba(10,45,73,1) 19%, rgba(109,124,198,0.361
         width: 1330px;
         height: 640px;
     }
+    #registro {
+        position: relative; /* Hace que el elemento sea posicionable */
+        background-image: url('tu-imagen.jpg'); /* Reemplaza 'tu-imagen.jpg' con la ruta a tu imagen */
+        background-size: cover; /* Hace que la imagen cubra todo el fondo */
+        background-position: center; /* Centra la imagen vertical y horizontalmente */
+        padding: 20px; /* Añade espacio interno para separar el contenido de los bordes */
+    }
+
+    #registro h2,
+    #registro input {
+        position: relative; /* Hace que los elementos hijos también sean posicionables */
+        z-index: 1; /* Coloca los elementos encima de la imagen */
+
+    }
     .deco{
         display: flex;
+        align-items: center;
+        gap: 100px;
         .logo_deco{
             width: 110px; 
             height: 150px; 
         }
-    .letre_deco {
-        color: #848482;
-        font-size: 36px;
+        .letre_deco {
+            color: #848482;
+            font-size: 36px;
+            display: flex;
+            align-items: center;
+        }
+        .email_index {
+            color: #05662E;
+            text-decoration: none;            
+
+            .email_email_index {
+                color: #05662E;
+                text-decoration: none;
+                }
+                .email_email_index:hover {
+                    color: #FAB90B;
+                }
+                .tel_index{
+                    color: #05662E;
+                text-decoration: none;
+                }
+                .tel_index:hover {
+                    color: #FAB90B;
+                }
+        }
     }
+    .siguenos {
+        color: #FAB90B;
+        display: flex;
+        align-items:center;
+        justify-content:left;
+
+        .youtube {
+            width: 50px; 
+            height: 50px; 
+        }
+        .instagram {
+            width: 50px; 
+            height: 50px; 
+        }
+        .fb {
+            width: 50px; 
+            height: 50px; 
+        }
     }
     #inferior_index {
         display: flex;
