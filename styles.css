@@ -6,7 +6,7 @@
 } 
 #body_index {
     background: rgb(10,45,73);
-background: linear-gradient(45deg, rgba(10,45,73,1) 25%, rgba(152,149,195,1) 50%, rgba(10,45,73,1) 75%);
+    background: linear-gradient(45deg, rgba(10,45,73,1) 25%, rgba(152,149,195,1) 50%, rgba(10,45,73,1) 75%);
     .Logo_principal {
         position: absolute;
         top: 0;
@@ -91,21 +91,23 @@ background: linear-gradient(45deg, rgba(10,45,73,1) 25%, rgba(152,149,195,1) 50%
     }
     #registro {
         position: relative; /* Hace que el elemento sea posicionable */
-        background-image: url('tu-imagen.jpg'); /* Reemplaza 'tu-imagen.jpg' con la ruta a tu imagen */
+        background-image: url('C:\Users\Usuario\Documents\git\prueba\images\correo_index.png');
         background-size: cover; /* Hace que la imagen cubra todo el fondo */
         background-position: center; /* Centra la imagen vertical y horizontalmente */
         padding: 20px; /* Añade espacio interno para separar el contenido de los bordes */
-    }
+      }
+      
+      #registro fieldset {
+        position: relative; /* Hace que el fieldset también sea posicionable */
+        z-index: 1; /* Coloca el fieldset encima de la imagen */
+        background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con 80% de opacidad */
+        padding: 20px;
+        border: none; /* Quita el borde del fieldset */
+      }
 
-    #registro h2,
-    #registro input {
-        position: relative; /* Hace que los elementos hijos también sean posicionables */
-        z-index: 1; /* Coloca los elementos encima de la imagen */
-
-    }
     .deco{
         display: flex;
-        align-items: center;
+        align-items: normal;
         gap: 100px;
         .logo_deco{
             width: 110px; 
