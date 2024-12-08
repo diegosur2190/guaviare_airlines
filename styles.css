@@ -119,43 +119,64 @@
             display: flex;
             align-items: center;
         }
+        
+    }
+    .siguenos {
+        color: #FAB90B;
+        
+
+        .youtube {
+            color:#FAB90B;
+            width: 50px; 
+            height: 50px; 
+        }
+        .instagram {
+            color:#FAB90B;
+            width: 50px; 
+            height: 50px; 
+        }
+        .facebook {
+            color:#FAB90B;
+            width: 50px; 
+            height: 50px; 
+        }
+        .x {
+            color:#FAB90B;
+            width: 50px; 
+            height: 50px; 
+        }
+        .tiktok {
+            color:#FAB90B;
+            width: 50px; 
+            height: 50px; 
+        }
+        .whatsApp {
+            color:#FAB90B;
+            width: 50px; 
+            height: 50px; 
+        }
         .email_index {
             color: #05662E;
             text-decoration: none;            
 
             .email_email_index {
-                color: #05662E;
+                color:#FAB90B;
                 text-decoration: none;
+                display:grid;
+                justify-items:end;
                 }
                 .email_email_index:hover {
-                    color: #FAB90B;
+                    color:#05662E;
                 }
                 .tel_index{
-                    color: #05662E;
+                    color:#FAB90B;
                 text-decoration: none;
+                display:grid;
+                justify-items:end;
                 }
                 .tel_index:hover {
-                    color: #FAB90B;
+                    color:#05662E;
                 }
-        }
-    }
-    .siguenos {
-        color: #FAB90B;
-        display: flex;
-        align-items:center;
-        justify-content:left;
-
-        .youtube {
-            width: 50px; 
-            height: 50px; 
-        }
-        .instagram {
-            width: 50px; 
-            height: 50px; 
-        }
-        .fb {
-            width: 50px; 
-            height: 50px; 
         }
     }
     #inferior_index {
